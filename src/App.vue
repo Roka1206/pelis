@@ -1,11 +1,10 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/search">Search</router-link> |
-      <router-link to="/my_list">My list</router-link>
+    <router-link to="/">Home</router-link> |
+    <router-link to="/search">Search</router-link> |
+    <router-link to="/my_list">My list</router-link>
   </div>
   <router-view />
 </template>
