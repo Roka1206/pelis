@@ -1,9 +1,16 @@
 # Comentarios
 
 1- No me gusto el diseño que realice me hubiera gustado tener más tiempo para poder hacerlo mejor, Vuetify me dio unos problemas que no tuve tiempo de reparar.
+
+
 2- La forma en que realiza son style no es la que mas utilizo ni me gusta pero fue la mas rapida. 
+
+
 3- La estructura de los componentes la hubiera organizado mucho mejor en sub carpetas cada uno con sus vistas usando la arquitectura hexagonal.
+
+
 4- Con la api la llame de esa forma para no carga el servidor, se que no es la manera mas eficiente.
+
  
 # Vue 3 + TypeScript + Vite
 
