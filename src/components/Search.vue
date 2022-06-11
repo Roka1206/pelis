@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 import { ref } from "vue";
 import { fetchApiData } from "../api/http";
 import { useStore, IComment } from "../hooks";
@@ -66,7 +67,7 @@ const handleCancel = (e: any) => {
 
 <template>
   <div>
-    <h1>Buscador</h1>
+    <h2>Buscador</h2>
     <input type="text" v-model="searchInput" />
     <button @click="search">Buscar</button>
   </div>
@@ -182,7 +183,7 @@ const handleCancel = (e: any) => {
             <button
               style="
                 backgroundcolor: #d43636;
-                color: white;
+                color: red;
                 padding: 0.7rem;
                 cursor: pointer;
               "
@@ -193,7 +194,7 @@ const handleCancel = (e: any) => {
             <button
               style="
                 backgroundcolor: #21d833;
-                color: white;
+                color: blue;
                 padding: 0.7rem;
                 margin: 0px 1rem 0px 1rem;
                 cursor: pointer;
